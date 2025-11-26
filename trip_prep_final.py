@@ -403,14 +403,14 @@ class TripPrepSystem:
         # Agent 1: 정찰
         scout_results = self.scout.scout(destination, keywords)
         
-        input("\n▶️  Enter를 눌러 Agent 2 시작...")
+        # input("\n▶️  Enter를 눌러 Agent 2 시작...")
         
         # Agent 2: 템플릿 설계
         customized_template = self.architect.design_template(
             scout_results, destination, keywords
         )
         
-        input("\n▶️  Enter를 눌러 Agent 3 시작...")
+        # input("\n▶️  Enter를 눌러 Agent 2 시작...")
         
         # Agent 3: 보고서 작성
         report = self.writer.write_report(
