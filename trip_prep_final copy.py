@@ -196,9 +196,9 @@ class ArchitectAgent:
    - "1. 해당 국가 특이사항" 바로 뒤에 추가
    - 예: "1-1. ⚠️ 필수 거주지 등록 절차"
    
-3. 사용자 키워드({', '.join(keywords)})를 "12. 사용자 키워드 관련 내용"에 구체화:
-   - 12-a. {keywords[0] if keywords else '관광'} 관련 정보
-   - 12-b. {keywords[1] if len(keywords) > 1 else '기타'} 관련 정보
+3. 사용자 키워드({', '.join(keywords)})를 "10. 사용자 키워드 관련 내용"에 구체화:
+   - 10-a. {keywords[0] if keywords else '관광'} 관련 정보
+   - 10-b. {keywords[1] if len(keywords) > 1 else '기타'} 관련 정보
 
 4. 커스터마이징된 템플릿만 출력하세요 (설명 없이).
 
