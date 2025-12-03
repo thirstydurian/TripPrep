@@ -12,6 +12,8 @@ tavily-python>=0.3.0
 # 유틸리티
 python-dotenv>=1.0.0
 markdown>=3.5.0
+rich>=13.0.0
+pydantic>=2.0.0
 
 # 선택적 (개발용)
 # pytest>=7.4.0
